@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mainScroll"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                style="@style/barDesign"
+                android:text="@string/play"
+                android:id="@+id/play" />
+            <TextView
+                style="@style/barDesign"
+                android:text="@string/artist"
+                android:id="@+id/artist" />
+            <TextView
+                style="@style/barDesign"
+                android:text="@string/album"
+                android:id="@+id/album" />
+            <TextView
+                style="@style/barDesign"
+                android:text="@string/song"
+                android:id="@+id/song" />
+            <TextView
+                style="@style/barDesign"
+                android:text="@string/payment"
+                android:paddingRight="20dp"
+                android:id="@+id/payment" />
+        </LinearLayout>
+    </HorizontalScrollView>
+</merge>

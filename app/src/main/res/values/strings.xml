@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Music</string>
+    <string name="play">Playlists</string>
+    <string name="artist">Artists</string>
+    <string name="album">Albums</string>
+    <string name="song">Songs</string>
+    <string name="payment">Payment</string>
+    <string name="descAlbum">This activity includes all albums of the songs that we have downloaded .</string>
+    <string name="descArtist">This activity will include the names of all artists whose
+        songs we had saved in the playlist of our app.The name of the artists will be in placed vertical LinearLayout.</string>
+    <string name="descPlaylist">This activity includes options like Auto Playlist and All Playlist.
+        These will have all the songs and acan be grouped like last added or recently added.</string>
+    <string name="descSongs">This activity includes the list of all songs arranged alphabetically in a vertical LinearLayout.</string>
+    <string name="descPay">The API that I chose for payment activity is payU.There are two stages of processing payment via payU :-\n  1.Customer places an order on our webpage.\n 2.PayU confirms that the payment has been processed
+        successfully.\n In the shopping cart the customer clicks on the button that is linked to the the PayU payment service.The PayU system presents an order summary webpage,where the buyer confirms his/her order .Then the buyer accepts the payment on the bank website an finally the system confirms the transaction was successful and thanks the buyer.</string>
+</resources>
